@@ -1,0 +1,145 @@
+Connected.
+
+Tablespace dropped.
+
+
+Tablespace created.
+
+
+Tablespace dropped.
+
+
+Tablespace created.
+
+
+User dropped.
+
+
+User created.
+
+
+Grant succeeded.
+
+Connected.
+
+Table created.
+
+
+Table created.
+
+
+Table created.
+
+
+Table created.
+
+
+Table altered.
+
+
+Table altered.
+
+
+Table altered.
+
+
+Table altered.
+
+
+Table altered.
+
+
+Table altered.
+
+
+Table altered.
+
+
+Table altered.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+Commit complete.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+Commit complete.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+CEDULA_JURIDICA NOMBRE                         DIRECCION                        
+--------------- ------------------------------ ------------------------------   
+  TELEFONO                                                                      
+----------                                                                      
+              1 Grupo Q                        San Jose                         
+    222223                                                                      
+                                                                                
+              2 HONDA FACO                     La URUCA                         
+  24222243                                                                      
+                                                                                
+              3 GRUPO DANISSA                  HEREDIA                          
+  24222243                                                                      
+                                                                                
+
+
+        ID   CED_AGEN NOMBRE                           TELEFONO    SALARIO      
+---------- ---------- ------------------------------ ---------- ----------      
+ 115790444          1 Alejandro Gamboa                 89940537     800000      
+ 115790445          1 Henry                            89940537     800000      
+ 115794345          2 MARTA                            71346373     700000      
+
+
+NUMERO_PLA MARCA                          TIPO                                  
+---------- ------------------------------ ------------------------------        
+MODELO                         ID_AGENCIA                                       
+------------------------------ ----------                                       
+BX555      HONDA                          MOTOCICLETA                           
+XR                                      1                                       
+                                                                                
+B6555      HYUNDAI                        AUTOMOVIL                             
+ACCENT                                  1                                       
+                                                                                
+C6555      Suzuki                         CUADRACICLO                           
+RSX                                     2                                       
+                                                                                
+
+
+IDVENDEDOR_VEHICULO IDVENDEDOR ID_NUMEROP                                       
+------------------- ---------- ----------                                       
+                  1  115790444 BX555                                            
+                  2  115790445 B6555                                            
+                  3  115794345 C6555                                            
+

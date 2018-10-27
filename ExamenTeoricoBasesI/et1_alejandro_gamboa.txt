@@ -1,0 +1,31 @@
+1) Elijo no responder
+
+
+2)Sí, una llave foranea permite null, por ejemplo en el caso de que haya una tabla empleados y un empleado puede ser jefe de otro, esa llave foranea sí permitiría null ya que no siempre un empleado es jefe de otro.
+
+
+3) Se refiere a que siempre se debe indicar en comentarios o Prompt la sección del codigo que se va a realizar o que se está realizando, ya que permite a los demás programadores de bases de datos llevar un orden a la hora de realizar scripts.
+
+
+4)Los objetos que pueden ser almacenados en tablespaces son las tablas,las llaves primarias y los unique key, se debe indicar en comandos DDL, y se hacen despues de la definición de tablas, de llaves y de unique key. Por ejemplo create table empleados(id number(4))using tablespace xxxx;
+
+
+5) No no se puede crear un CK que valide un campo tipo fecha contra un sysdate ya que la fecha del sistema se va actualizando cada segundo entonces daría error. No no se puede crear un CK que valide contra una función ya que los CK solo validan atributos de una tabla, no valida funciones.
+
+
+6) Los rectangulos representan las entidades, y las lineas representan la unión entre las entidades y las relaciones.
+
+
+7) Significa que es una tabla relacionada así misma, con una llave foranea que apunta a la llave primaria de esa misma tabla. Que sea punteada significa que el valor de la llave foranea permite null.
+
+
+8) El concepto de dominio quiere decir la cantidad de digitos o caracteres que el atributo de la tabla puede soportar. Por ejemplo id number(4); el cuatro entre parentesis indica el dominio de ese valor numerico, quiere decir que puede soportar hasta 4 digitos de valor numerico.
+
+
+9) Necesita un indicador por ejemplo se le agrega una letra para indicar a cual tabla se refiere el atributo, por ejemplo se utiliza la letra d para indicar el nombre del departamento en tabla departamentos y se utiliza la letra e para indicar el nombre del departamento en la tabla empleados. d.nombre, e.nombre from d departamentos, e.empleados.
+
+
+10) El comando max es la funcion de agregacion ya que realiza una revision de los atributos de la tabla y devuelve el valor maximo de una o mas tablas determinadas.
+
+
+11) cuando se crea la llave unica el script se corre normalmente ya que la UK permite errores, entonces no habria error por el cual preocuparse.
