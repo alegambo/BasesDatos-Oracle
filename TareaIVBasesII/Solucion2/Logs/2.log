@@ -1,0 +1,21 @@
+
+7-Zip 18.05 (x64) : Copyright (c) 1999-2018 Igor Pavlov : 2018-04-30
+
+Scanning the drive for archives:
+1 file, 9430 bytes (10 KiB)
+
+Extracting archive: .\Datos\hr.7z
+--
+Path = .\Datos\hr.7z
+Type = 7z
+Physical Size = 9430
+Method = LZMA2
+Solid = -
+Blocks = 1
+Physical Size = 9430
+Headers Size = 122
+
+Everything is Ok
+
+Size:       38912
+Compressed: 9430

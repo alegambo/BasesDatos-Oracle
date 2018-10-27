@@ -1,0 +1,5 @@
+userid=system/root
+file=.\Datos\hr.dmp
+log=imp-hr.log
+fromuser=hr
+touser=prueba

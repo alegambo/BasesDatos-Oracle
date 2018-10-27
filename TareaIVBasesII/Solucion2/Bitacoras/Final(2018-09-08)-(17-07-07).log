@@ -1,0 +1,63 @@
+Inicio================================================ 
+#0 Borrar y Creaer usuario prueba                      
+
+User dropped.
+
+
+User created.
+
+
+Grant succeeded.
+
+______________________________________________________ 
+#1 desencriptra RUTA y con un nombre indicado hr.7z    
+error:                                                 
+log:                                                   
+______________________________________________________ 
+#2 descomprime en la carpeta actual                    
+error:                                                 
+log:                                                   
+
+7-Zip 18.05 (x64) : Copyright (c) 1999-2018 Igor Pavlov : 2018-04-30
+
+Scanning the drive for archives:
+1 file, 9430 bytes (10 KiB)
+
+Extracting archive: .\Datos\hr.7z
+--
+Path = .\Datos\hr.7z
+Type = 7z
+Physical Size = 9430
+Headers Size = 122
+Method = LZMA2:48k
+Solid = -
+Blocks = 1
+
+Everything is Ok
+
+Size:       38912
+Compressed: 9430
+______________________________________________________ 
+#3 Mueve a carpeta datos                               
+error:                                                 
+log:                                                   
+        1 file(s) moved.
+______________________________________________________ 
+#4 Import genera propio log                            
+
+Connected to: Oracle Database 11g Express Edition Release 11.2.0.2.0 - 64bit Production
+
+Export file created by EXPORT:V11.02.00 via conventional path
+import done in WE8MSWIN1252 character set and AL16UTF16 NCHAR character set
+import server uses AL32UTF8 character set (possible charset conversion)
+. importing HR's objects into PRUEBA
+. . importing table                    "COUNTRIES"         25 rows imported
+. . importing table                  "DEPARTMENTS"         27 rows imported
+. . importing table                    "EMPLOYEES"        107 rows imported
+. . importing table                  "JOB_HISTORY"         10 rows imported
+. . importing table                         "JOBS"         19 rows imported
+. . importing table                    "LOCATIONS"         23 rows imported
+. . importing table                      "REGIONS"          4 rows imported
+About to enable constraints...
+Import terminated successfully without warnings.
+Final ================================================ 

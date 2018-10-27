@@ -1,0 +1,2 @@
+Se necesita descargar Namedate, 7zip,y aescrypt.
+Ubbicar en la misma carpeta el namedate.exe, el 7zip.exe, y los dll de los aescrypt
